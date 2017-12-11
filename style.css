@@ -93,6 +93,35 @@ body{
         display: none; 
     }
 
+    .desknav {
+        overflow: hidden;
+        background-color: #A9A9A9;
+        position: relative;
+        background-position: center;
+        top: 0%;
+        opacity: .9;
+        width: 100%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    
+    .desknava {
+        display: inline;
+        color: black;
+        text-align: left;
+        padding: 5%;
+        text-decoration: none;
+        font-size: 3vw;
+        font-family: sans-serif;
+        font-weight: bold;
+        padding-top:2%;
+    }
+      
+    .desknava:hover {
+        background-color: #ddd;
+        color: black;
+    } 
+
     .deskheader{
         background-color: black;
         position: relative;
