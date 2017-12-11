@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .mobilenav {
     overflow: hidden;
     background-color: #A9A9A9;
@@ -5,20 +9,22 @@
     background-position: center;
     top: 0%;
     opacity: .9;
-    width: 800px;
-    padding: 6%;
+    width: 100%;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 
 .mobilenav a {
     display: inline;
     color: black;
     text-align: left;
-    padding: 14px 16px;
+    padding: 5%;
     text-decoration: none;
-    font-size: 17px;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 5px;
+    font-size: 3vw;
+    font-family: sans-serif;
+    /* letter-spacing: 2%; */
     font-weight: bold;
+    padding-top:2%;
 }
   
 .mobilenav a:hover {
@@ -31,8 +37,9 @@
     position: relative;
     background-position: center;
     top: 0%;
-    width: 800px;
-    padding: 17%;
+    width: 100%;
+    padding-top: 17%;
+    padding-bottom: 10%;
 }
 
 .mobilep1 {
@@ -40,6 +47,8 @@
     position: relative;
     background-position: center;
     color:black;
+    margin: 2%;
+    padding: 3%;
 }
 
 .mobilep2 {
@@ -59,29 +68,19 @@
     background-color: #A9A9A9;
     position: relative;
     background-position: center;
-    width: 800px;
-    padding: 6%;
+    width: 100%;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 
 
 
   @media all and (min-width: 800px) {
-    .mobilenav {
-        display: none;
-    }
-    
-    .mobilenav a {
-        display: none;
-    }
-      
-    .mobilenav a:hover {
-        display: none;
-    } 
-    
-    .mobileheader {
-        display: none;
-    }
-    
+    body{
+        margin: 0;
+        padding: 0;
+    }    
+
     .mobilep1 {
         display: none;
     }
@@ -89,49 +88,28 @@
     .mobilep2 {
         display: none;
       }
-    
-    .mobilefoot{
-        display: none;
+
+    .mobileheader {
+        display: none; 
     }
 
-    .desknav {
-        overflow: hidden;
-        background-color: #A9A9A9;
-        position: relative;
-        background-position: center;
-        top: 0%;
-        opacity: .9;
-        width: 100%;
-        padding: 6%;
-    }
-    
-    .desknav a {
-        display: inline;
-        color: black;
-        text-align: left;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        font-family: 'Open Sans', sans-serif;
-        letter-spacing: 5px;
-        font-weight: bold;
-    }
-      
-    .desknav a:hover {
-        background-color: #ddd;
-        color: black;
-    } 
-    
-    .deskheader {
+    .deskheader{
         background-color: black;
         position: relative;
+        float: left;
         background-position: center;
         top: 0%;
-        width: 800px;
-        padding: 17%;
+        width: 20%;
+        padding-bottom: 760px;
     }
-    
+
     .deskp1 {
+        display: inline-block;
+        width: calc(100% / 3);
+        margin: 8% 0;
+        margin-left: calc((20% / 3) / 3);
+        padding: 2%;
+        text-align: center;
         background-color: gray;
         position: relative;
         background-position: center;
@@ -139,24 +117,11 @@
     }
     
     .deskp2 {
-        display: inline-block;
-        width: calc(100% / 3);
-        margin: 8% 1%;
-        margin-left: calc((100% / 3) / 3);
-        padding: 2%;
-        text-align: center;
         background-color: gray;
-        position: relative;
-        background-position: center;
         color:black;
+        display: inline-block;
+        width: calc(75% / 6);
+        margin: 5% 0;
+        margin-left: calc((100% / 6) / 6);
       }
-    
-    .deskfoot{
-        overflow: hidden;
-        background-color: #A9A9A9;
-        position: relative;
-        background-position: center;
-        width: 800px;
-        padding: 6%;
-    }
   } 
