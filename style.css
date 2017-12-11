@@ -2,12 +2,6 @@ html, body {
     height: 100%;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    
-}
-
 .mobilenav {
     overflow: hidden;
     background-color: #A9A9A9;
@@ -54,6 +48,7 @@ body{
     color:black;
     margin: 2%;
     padding: 3%;
+    text-align: center;
 }
 
 .mobilep2 {
@@ -83,7 +78,7 @@ footer {
   @media all and (min-width: 800px) {
     body{
         margin: 0;
-        padding: 0;
+        width: 960px;
     }    
 
     .mobilep1 {
@@ -108,7 +103,7 @@ footer {
         background-position: center;
         width: 100%;
         z-index: -10;
-        height:10%;
+        height:30%;
     }
 
     .deskheader{
