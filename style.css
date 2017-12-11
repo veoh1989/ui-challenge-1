@@ -1,0 +1,162 @@
+.mobilenav {
+    overflow: hidden;
+    background-color: #A9A9A9;
+    position: relative;
+    background-position: center;
+    top: 0%;
+    opacity: .9;
+    width: 800px;
+    padding: 6%;
+}
+
+.mobilenav a {
+    display: inline;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+  
+.mobilenav a:hover {
+    background-color: #ddd;
+    color: black;
+} 
+
+.mobileheader {
+    background-color: black;
+    position: relative;
+    background-position: center;
+    top: 0%;
+    width: 800px;
+    padding: 17%;
+}
+
+.mobilep1 {
+    background-color: gray;
+    position: relative;
+    background-position: center;
+    color:black;
+}
+
+.mobilep2 {
+    display: inline-block;
+    width: calc(100% / 3);
+    margin: 8% 1%;
+    margin-left: calc((100% / 3) / 3);
+    padding: 2%;
+    text-align: center;
+    background-color: gray;
+    position: relative;
+    background-position: center;
+    color:black;
+  }
+
+.mobilefoot{
+    background-color: #A9A9A9;
+    position: relative;
+    background-position: center;
+    width: 800px;
+    padding: 6%;
+}
+
+
+
+  @media all and (min-width: 800px) {
+    .mobilenav {
+        display: none;
+    }
+    
+    .mobilenav a {
+        display: none;
+    }
+      
+    .mobilenav a:hover {
+        display: none;
+    } 
+    
+    .mobileheader {
+        display: none;
+    }
+    
+    .mobilep1 {
+        display: none;
+    }
+    
+    .mobilep2 {
+        display: none;
+      }
+    
+    .mobilefoot{
+        display: none;
+    }
+
+    .desknav {
+        overflow: hidden;
+        background-color: #A9A9A9;
+        position: relative;
+        background-position: center;
+        top: 0%;
+        opacity: .9;
+        width: 100%;
+        padding: 6%;
+    }
+    
+    .desknav a {
+        display: inline;
+        color: black;
+        text-align: left;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 5px;
+        font-weight: bold;
+    }
+      
+    .desknav a:hover {
+        background-color: #ddd;
+        color: black;
+    } 
+    
+    .deskheader {
+        background-color: black;
+        position: relative;
+        background-position: center;
+        top: 0%;
+        width: 800px;
+        padding: 17%;
+    }
+    
+    .deskp1 {
+        background-color: gray;
+        position: relative;
+        background-position: center;
+        color:black;
+    }
+    
+    .deskp2 {
+        display: inline-block;
+        width: calc(100% / 3);
+        margin: 8% 1%;
+        margin-left: calc((100% / 3) / 3);
+        padding: 2%;
+        text-align: center;
+        background-color: gray;
+        position: relative;
+        background-position: center;
+        color:black;
+      }
+    
+    .deskfoot{
+        overflow: hidden;
+        background-color: #A9A9A9;
+        position: relative;
+        background-position: center;
+        width: 800px;
+        padding: 6%;
+    }
+  } 
